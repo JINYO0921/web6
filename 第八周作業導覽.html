@@ -9,32 +9,62 @@
             font-family: arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
+            background-color: linear-gradient(to bottom, #dcedc8, #f0f0f0);
+            text-align: center;
         }
 
         header{
-            background-color: #007bff;
+            background-color: #4CAF55;
             color: white;
-            padding: 10px;
-            text-align: center;
+            padding: 30px 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        h1{
+            margin: 0;
+            font-size: 28px;
         }
         
-        nav{
-            background-color: #333;
+        .nav{
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 400px;
+            margin: 50px auto 0 ;
+            
+        }
+
+        .nav a{
+            display: block;
+            padding: 15px;
+            background-color: #4CAF55;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 18px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .nav a:hover{
+            background-color: #43a047;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>歡迎來到我的網站</h1>
-        <h3>-第八周作業導覽-</h3>
+        <h1>-第八周作業導覽-</h1>
     </header>
-
-    <nav>
-        <a href="#home">回到首頁</a>
-
-    </nav>
+    <div class="nav">
+        <a href="練習1.html">練習一</a>
+        <a href="練習2.html">練習二</a>
+        <a href="bgposition.html">bgposition</a>
+        <a href="bgrepeat1.html">bgrepeat1</a>
+        <a href="bgrepeat2.html">bgrepeat2</a>
+        <a href="border-radius.html">border-radius</a>
+        <a href="linear2.html">linear2</a>
+      </div>
 </body>
 </html>
